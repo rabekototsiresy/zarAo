@@ -1,0 +1,49 @@
+.navTop{
+    background: linear-gradient(27deg, #34495e 50%, #2c3e50 50%);
+}
+.divImages,img{
+    width: 70px;
+    height: 70px;
+}
+div a{
+    position: absolute;
+    top:15px;
+    background-color:rgba(51, 56, 52, 0.5);
+    font-size: 20px;
+}
+.formMagique{
+    border: 2px solid #dedede;
+    margin-top: 100px;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    background-color: transparent;
+     
+}
+
+input:hover{
+    width: 100%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom : 3px solid #dedede!important ;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.Bsinscrire{
+    background-color: #65a152!important;
+    width: 100%;
+    color:white;
+}
+.form-group{
+    background-color: #d7ba7d;
+    padding: 20px;
+    
+}

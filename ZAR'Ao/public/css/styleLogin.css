@@ -1,0 +1,82 @@
+body{
+top: 0;
+left: 0;
+margin: 0;
+padding: 0;
+height: 100vh;
+width: 100%;
+font-family: arial;
+background: linear-gradient(27deg, #34495e 50%, #2c3e50 50%);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.images{
+    /*border : 2px solid red;*/
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    margin-top:15px;
+
+    
+}
+img{
+    width: 160px;
+    height: 160px;
+   
+}
+.formConnexion{
+    padding: 50px;
+    border: 1px solid #2980b9;
+    margin-top: -80px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+input{
+    background-color: transparent!important;
+    
+}
+form{
+    padding-top: 30px;
+}
+.bouttonConnexion,.bouttonInscription,.mail,.pass{
+    border-color: #2980b9!important;
+    color : #dedede!important;
+}
+.mail,.pass{
+    border-top:none!important;
+    border-left:none!important;
+    border-right: none!important;
+    border-bottom-left-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+    border-bottom : 1px solid #2980b9!important ;
+    text-align:center;
+    font-size: 50px;
+}
+.mail:hover,.pass:hover{
+    border-top:none!important;
+    border-left:none!important;
+    border-right: none!important;
+    border-bottom-left-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+    border-bottom : 3px solid #2980b9!important ;
+
+}
+.bouttonConnexion:hover{
+    color:#2980b9!important;
+    font-size: 20px!important;
+}
+.bouttonInscription:hover{
+    color:#2980b9!important;
+    font-size: 20px!important;
+}
+p{
+    font-size : 15px!important;
+    text-align: center!important;
+}
+p a{
+    color : white;
+    text-decoration: none;
+}
+::placeholder{
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
