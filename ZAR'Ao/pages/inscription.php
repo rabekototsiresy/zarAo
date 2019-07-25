@@ -1,6 +1,5 @@
 <?php include_once 'restriction/header.php';?>
 <body>
-<?php echo $_SERVER['SCRIPT_NAME']?>
 <div class="container-fluid">
     <div class="row navTop">
         <div class="col-md-1 divImages"><img src="../public/img/logo.png"></div>

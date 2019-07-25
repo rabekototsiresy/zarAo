@@ -15,11 +15,69 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4 BquiSomme">
-            <h2>Qui sommes nous</h2>
+        <div class="col-md-4 carousel slide" id="BquiSomme" data-ride = "carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#BquiSomme" data-slide-to="0" class="active"></li>
+                <li data-target="#BquiSomme" data-slide-to="1"></li>
+                <li data-target="#BquiSomme" data-slide-to="3"></li>
+                <li data-target="#BquiSomme" data-slide-to="3"></li>
+                <li data-target="#BquiSomme" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 h-25" src="public/img/jenner.jpg" alt = "first slide">
+                    <div class="carousel-caption">
+                        <h3>jenner</h3>
+                        <p>(first slide)</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="public/img/jho.jpg" alt = "second slide">
+                    <div class="carousel-caption">
+                        <h3>jho</h3>
+                        <p>(second slide)</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 h-100" src="public/img/jul.jpg" alt = " third slide">
+                    <div class="carousel-caption">
+                        <h3>Jul</h3>
+                        <p>(third slide)</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 h-100" src="public/img/lucas.jpg" alt = "fourth slide">
+                    <div class="carousel-caption">
+                        <h3>lucas</h3>
+                        <p>(fourth slide)</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 h-100" src="public/img/njara.jpg" alt = "fith slide">
+                    <div class="carousel-caption">
+                        <h3>njara</h3>
+                        <p>(fith slide)</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href = "#BquiSomme" role="button" data-slide = "prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href = "#BquiSomme" role="button" data-slide = "next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                
+                
+
+            </div>
+            
         </div>
         <div class="col-md-4 inbox">
             <h4>Todisoa Andrianome</h4>
+
+
+
             <div class="row">
                 <div class="col-md-10 textTarea">
                     <textarea class="form-control">
