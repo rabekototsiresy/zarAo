@@ -24,10 +24,27 @@ div a{
     font-size: 20px;
 }
 .textTarea,.sendBoutton{
+    margin-top: 335px;
 }
 .BquiSomme,.Buser{
     background-color: #dedede!important;
 }
-#BquiSomme{
-   /*background-color: red;*/
+.carousel-item img{
+    width :100%;
+     height : 300px;
+}
+.bodyCarrou{
+    height: 300px;
+}
+.prev,.next{
+    background-color: transparent!important;
+}
+.card{
+    background: rgba(51, 56, 52, 0.2);
+    
+
+}
+p{
+    font-size: 25px;
+    font-family: Brush Script Std;
 }

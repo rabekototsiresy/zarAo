@@ -7,6 +7,7 @@
     <link rel="icon" href="public/img/logo.png" type="image/gif">
     <?php if ($_SERVER['SCRIPT_NAME'] == "/ZAR'Ao/index.php") : ?>
     <link rel="stylesheet" href="public/css/bootstrap.css">
+    <link rel="stylesheet" href="public/css/font-awesome.css">
     <link rel="stylesheet" href="public/css/styleAcceuil.css">
     <?php elseif ($_SERVER['SCRIPT_NAME'] == "/ZAR'Ao/pages/connexion.php") : ?>
     <link rel="icon" href="../public/img/logo.png" type="image/gif">
